@@ -33,8 +33,8 @@ TARGET_TS_MAKEUP := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_tb8704
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tb8704
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lenovo_tb8704
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_tb8704
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_tb8704_defconfig

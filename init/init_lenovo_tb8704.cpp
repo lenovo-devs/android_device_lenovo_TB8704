@@ -65,7 +65,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "msm8953_64-user 7.1.1 NMF26F 923 release-keys");
 		property_override("ro.build.product", "TB-8704F");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "TB-8704F");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8704F/TB-8704F:7.1.1/NMF26F/TB-8704F_S000037_180906_ROW:user/release-key");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8704F/TB-8704F:7.1.1/NMF26F/TB-8704F_S000037_180906_ROW:user/release-key");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-8704F");
 	//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "Lenovo TB-8704F");
@@ -73,7 +73,7 @@ static void set_fingerprint()
 		property_override("ro.build.description", "msm8953_64-user 7.1.1 NMF26F 923 release-keys");
 		property_override("ro.build.product", "TB-8704X");
 		property_override_dual("ro.product.device", "ro.vendor.product.device", "TB-8704X");
-		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8704X/TB-8704X:7.1.1/NMF26F/TB-8704X_S000042_180906_ROW:user/release-keys");
+		property_override_dual("ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "Lenovo/TB-8704X/TB-8704X:7.1.1/NMF26F/TB-8704X_S000042_180906_ROW:user/release-keys");
 		property_override_dual("ro.product.model", "ro.vendor.product.model", "Lenovo TB-8704X");
 		//for installing stock OTA with TWRP
 		property_override("ro.product.ota.model", "Lenovo TB-8704X");

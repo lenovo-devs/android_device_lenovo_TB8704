@@ -276,8 +276,8 @@ etc/firmware/a506_zap.mdt:vendor/firmware/variant/apq/a506_zap.mdt
 bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.default.so
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
-lib64/libfp_client.so:vendor/lib64/libfp_client.so
-lib64/libfpservice.so:vendor/lib64/libfpservice.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|58481d540531c023bd2ded3b06740e0502a0e799
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|15a100bffabaec71aab7cce0bd2916fdcbfb3f9b
 
 # TB-8704X Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/variant/msm/goodixfp.b00

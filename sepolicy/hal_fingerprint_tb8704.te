@@ -1,4 +1,4 @@
-type hal_fingerprint_tb8704, domain, binder_in_vendor_violators;
+type hal_fingerprint_tb8704, domain;
 hal_server_domain(hal_fingerprint_tb8704, hal_fingerprint)
 
 type hal_fingerprint_tb8704_exec, exec_type, vendor_file_type, file_type;
